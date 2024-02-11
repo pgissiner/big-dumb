@@ -54,8 +54,8 @@ new_window pixel 0
 # hide_edge_borders both
 
 # Set inner/outer gaps
-gaps inner 1
-gaps outer 1
+gaps inner 3
+gaps outer 3
 
 # show window title bars (not officially supported with i3gaps)
 #default_border normal
@@ -388,7 +388,7 @@ exec --no-startup-id dex --autostart --environment i3
 #exec --no-startup-id setxkbmap -layout 'us,sk' -variant altgr-intl,qwerty -option 'grp:alt_caps_toggle'
 
 # start conky:
-exec_always --no-startup-id conky
+#exec_always --no-startup-id conky
 
 # start a script to setup displays
 # uncomment the next line, use arandr to setup displays and save the file as monitor:
@@ -520,7 +520,7 @@ bar {
 		font pango: Noto Sans Regular 10
 		status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	    	position top
-#	    	i3bar_command i3bar --transparency
+	    	i3bar_command i3bar --transparency
 # it could be that you have no primary display set: set one (xrandr --output <output> --primary)
 # reference: https://i3wm.org/docs/userguide.html#_tray_output
 		    #tray_output primary
