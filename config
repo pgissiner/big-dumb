@@ -396,7 +396,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-exec --no-startup-id sleep 1 && feh --bg-fill /home/pete/Pictures/arch.png
+exec --no-startup-id sleep 1 && feh --bg-fill /home/pete/Pictures/line.png
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
@@ -495,17 +495,17 @@ set $yellowbrown	#e1b700
 
 # define colors for windows:
 #class		        	border		bground		text		indicator	child_border
-client.focused		    	$lightblue	$darkblue	$white		$mediumgrey	$mediumgrey
-client.unfocused	    	$darkblue	$darkblue	$grey		$darkgrey	$darkgrey
-client.focused_inactive		$darkblue	$darkblue	$grey		$black		$black
-client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
+#client.focused		    	$lightblue	$darkblue	$white		$mediumgrey	$mediumgrey
+#client.unfocused	    	$darkblue	$darkblue	$grey		$darkgrey	$darkgrey
+#client.focused_inactive		$darkblue	$darkblue	$grey		$black		$black
+#client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
 
 # class                 border  backgr. text    indicator
-#client.focused          #81a1c1 #81a1c1 #ffffff #81a1c1
-#client.unfocused        #2e3440 #1f222d #888888 #1f222d
-#client.focused_inactive #2e3440 #1f222d #888888 #1f222d
-#client.placeholder      #2e3440 #1f222d #888888 #1f222d
-#client.urgent           #900000 #900000 #ffffff #900000
+client.focused          #81a1c1 #81a1c1 #ffffff #81a1c1
+client.unfocused        #2e3440 #1f222d #888888 #1f222d
+client.focused_inactive #2e3440 #1f222d #888888 #1f222d
+client.placeholder      #2e3440 #1f222d #888888 #1f222d
+client.urgent           #900000 #900000 #ffffff #900000
 
 #client.background       #242424
 
