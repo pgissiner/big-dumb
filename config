@@ -485,9 +485,9 @@ set $darkbluetrans	#08052be6
 set $darkblue		#08052b
 set $lightblue		#5294e2
 set $urgentred		#e53935
-set $white		#ffffff
-set $black		#000000
-set $purple		#e345ff
+set $white		#eceff4
+set $black		#2e3440
+set $purple		#b48ead
 set $darkgrey		#383c4a
 set $grey		#b0b5bd
 set $mediumgrey		#8b8b8b
@@ -501,11 +501,11 @@ set $yellowbrown	#e1b700
 #client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
 
 # class                 border  backgr. text    indicator
-client.focused          #81a1c1 #81a1c1 #ffffff #81a1c1
+client.focused          #81a1c1 #81a1c1 #eceff4 #81a1c1
 client.unfocused        #2e3440 #1f222d #888888 #1f222d
 client.focused_inactive #2e3440 #1f222d #888888 #1f222d
 client.placeholder      #2e3440 #1f222d #888888 #1f222d
-client.urgent           #900000 #900000 #ffffff #900000
+client.urgent           #900000 #900000 #eceff4 #900000
 
 #client.background       #242424
 
