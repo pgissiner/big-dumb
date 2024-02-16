@@ -11,3 +11,5 @@ sudo cp ~/Downloads/big-dumb/config ~/.config/i3
 sudo cp ~/Downloads/big-dumb/i3blocks.conf ~/.config/i3
 sudo cp ~/Downloads/big-dumb/nord.conf ~/.config/kitty/
 sudo cp ~/Downloads/big-dumb/kitty.conf ~/.config/kitty
+sudo cp ~/Downloads/big-dumb/line.png ~/Pictures
+sudo cp ~/Downloads/big-dumb/nm-applet.desktop /etc/xdg/autostart
